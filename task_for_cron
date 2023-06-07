@@ -1,0 +1,4 @@
+#Please, save the script to a file, for example /home/user/postgresql_dump.sh and create a job in the scheduler (crontab -e) to organize the possibility of automatic backup PostgreSQL:
+#script will run every day at 03:00
+
+0 3 * * * /home/user/postgresql_dump.sh
