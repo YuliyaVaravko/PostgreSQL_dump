@@ -2,3 +2,4 @@
 #script will run every day at 03:00
 
 0 3 * * * /home/user/postgresql_dump.sh
+0 3 * * * /home/user/pg_dump_arch.sh
